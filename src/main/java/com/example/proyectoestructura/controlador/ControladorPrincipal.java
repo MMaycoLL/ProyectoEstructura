@@ -410,212 +410,254 @@ public class ControladorPrincipal {
     //Mover Semaforos//
     @FXML
     void moverSemaforoAmarilloNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AmarilloNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAmarilloNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AmarilloNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAmarilloOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AmarilloOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAmarilloOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AmarilloOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAmarilloSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AmarilloSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAmarilloSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AmarilloSurOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAzulNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AzulNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAzulNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AzulNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAzulOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AzulOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAzulOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AzulOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAzulSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AzulSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoAzulSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        AzulSurOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoCentroNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        CentroNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoCentroNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        CentroNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoCentroOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        CentroOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoCentroOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        CentroOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoCentroSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        CentroSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoCentroSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        CentroSurOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoNaranjaNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        NaranjaNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoNaranjaNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        NaranjaNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoNaranjaOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        NaranjaOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoNaranjaOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        NaranjaOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoNaranjaSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        NaranjaSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoNaranjaSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        NaranjaSurOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoRojoNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        RojoNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoRojoNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        RojoNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoRojoOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        RojoOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoRojoOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        RojoOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoRojoSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        RojoSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoRojoSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        RojoSurOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVerdeNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VerdeNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVerdeNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VerdeNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVerdeOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VerdeOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVerdeOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VerdeOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVerdeSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VerdeSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVerdeSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VerdeSurOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVioletaNorteOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VioletaNorteOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVioletaNorteOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VioletaNorteOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVioletaOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VioletaOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVioletaOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VioletaOriente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVioletaSurOccidente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VioletaSurOccidente.setImage(image);
     }
 
     @FXML
     void moverSemaforoVioletaSurOriente(MouseEvent event) {
-
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo.png")));
+        VioletaSurOriente.setImage(image);
     }
 
     @FXML
