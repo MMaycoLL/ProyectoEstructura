@@ -25,15 +25,6 @@ public class Main {
         grafo.nuevoArco("Centro-Oriente", "Violeta-Occidente", peso);
         grafo.nuevoArco("Violeta-Occidente", "Centro-Oriente", peso);
 
-        grafo.nuevoArco("Centro-Norte-Occidente", "Verde-Sur-Oriente", peso);
-        grafo.nuevoArco("Verde-Sur-Oriente", "Centro-Norte-Occidente", peso);
-
-        grafo.nuevoArco("Centro-Norte-Oriente", "Azul-Sur-Occidente", peso);
-        grafo.nuevoArco("Azul-Sur-Occidente", "Centro-Norte-Oriente", peso);
-
-        grafo.nuevoArco("Centro-Oriente", "Violeta-Occidente", peso);
-        grafo.nuevoArco("Violeta-Occidente", "Centro-Oriente", peso);
-
         grafo.nuevoArco("Centro-Sur-Oriente", "Rojo-Norte-Occidente", peso);
         grafo.nuevoArco("Rojo-Norte-Occidente", "Centro-Sur-Oriente", peso);
 
