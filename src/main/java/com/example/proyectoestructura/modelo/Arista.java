@@ -24,8 +24,15 @@ public class Arista {
     }
 
     public double getPeso() {
-        return peso;
+        if (destino.getCentinela())
+            return peso + 2;
+        else
+            return peso;
     }
+
+//    public double getPeso() {
+  //      return peso;
+    //}
 
     public boolean equals(Object n) {
         Arista a = (Arista) n;

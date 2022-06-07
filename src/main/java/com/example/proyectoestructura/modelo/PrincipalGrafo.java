@@ -1,10 +1,10 @@
 package com.example.proyectoestructura.modelo;
 
-public class Main {
+public class PrincipalGrafo {
 
-    public static void main(String args[]) {
+    private Grafo<String> grafo = new Grafo<>();
+    public PrincipalGrafo() {
 
-        Grafo<String> grafo = new Grafo<>();
         String[] palabras = new String[]{"Centro", "Verde", "Azul", "Amarillo", "Rojo", "Naranja", "Violeta"};
         crearHexagonos(grafo, palabras);
         unirHexagonos(grafo);
@@ -12,10 +12,26 @@ public class Main {
         System.out.println(grafo);
 
         System.out.println(grafo.rutaMasCorta(grafo.buscarNodo("Amarillo-Occidente"), grafo.buscarNodo("Violeta-Oriente")));
+        //System.out.println(grafo.pesoEntreArcos("Amarillo-Occidente", "Violeta-Oriente"));
+      //  asignarSemaforo("Amarillo-Oriente");
+        //System.out.println(grafo.pesoEntreArcos("Amarillo-Occidente", "Violeta-Oriente"));
     }
 
+    public void asignarSemaforo (String nodo){
+        Nodo nodoActual = grafo.buscarNodo(nodo);
+
+        nodoActual.setCentinela(true);
+    }
     private static void unirHexagonos(Grafo<String> grafo) {
         double peso = 1.0;
+        grafo.nuevoArco("Verde-Sur-Oriente", "Centro-Norte-Occidente", peso);
+
+        grafo.nuevoArco("Centro-Norte-Oriente", "Azul-Sur-Occidente", peso);
+        grafo.nuevoArco("Azul-Sur-Occidente", "Centro-Norte-Oriente", peso);
+
+        grafo.nuevoArco("Centro-Oriente", "Violeta-Occidente", peso);
+        grafo.nuevoArco("Violeta-Occidente", "Centro-Oriente", peso);
+
         grafo.nuevoArco("Centro-Norte-Occidente", "Verde-Sur-Oriente", peso);
         grafo.nuevoArco("Verde-Sur-Oriente", "Centro-Norte-Occidente", peso);
 

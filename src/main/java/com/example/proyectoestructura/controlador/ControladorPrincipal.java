@@ -1,6 +1,7 @@
 package com.example.proyectoestructura.controlador;
 
 import com.example.proyectoestructura.HelloApplication;
+import com.example.proyectoestructura.modelo.PilaCartas;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.image.Image;
@@ -8,8 +9,19 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import java.net.URL;
 import java.util.ResourceBundle;
-
+import com.example.proyectoestructura.modelo.PrincipalGrafo;
+import javafx.scene.control.Label;
 public class ControladorPrincipal {
+
+    private PrincipalGrafo principalGrafo = new PrincipalGrafo();
+
+    private PilaCartas unaPila = new PilaCartas();
+
+    @FXML
+    private Label txtCartasRestantes;
+
+    @FXML
+    private Label txtMisiones;
 
     @FXML
     private ResourceBundle resources;
@@ -156,7 +168,7 @@ public class ControladorPrincipal {
     // Agregar Semaforos//
     @FXML
     void agregarSemaforoAmarilloNorteOccidente(MouseEvent event) {
- Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo-rojo.png")));
+        Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo-rojo.png")));
         AmarilloNorteOccidente.setImage(image);
     }
 
@@ -170,6 +182,8 @@ public class ControladorPrincipal {
     void agregarSemaforoAmarilloOccidente(MouseEvent event) {
         Image image = new Image((HelloApplication.class.getResourceAsStream("imagenes/circulo-rojo.png")));
         AmarilloOccidente.setImage(image);
+
+        principalGrafo.asignarSemaforo("Amarillo-Occidente");
     }
 
     @FXML

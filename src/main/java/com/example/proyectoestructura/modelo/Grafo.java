@@ -38,7 +38,7 @@ public class Grafo<T> {
             vertice.eliminarArco(verticeOrigen.getNombre());
         }
         // Finalmente eliminamos el vertice.
-        nodos.remove(verticeOrigen);
+        //nodos.remove(verticeOrigen);
     }
 
     public void nuevoArco(String origen, String destino, double peso) {

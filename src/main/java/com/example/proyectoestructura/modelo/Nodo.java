@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class Nodo<T> implements Comparable<Nodo<T>> {
 
     private T t;
+
+    private Boolean centinela;
     private String nombre;
     private ArrayList<Arista> aristas;
     private double minDistance = Double.POSITIVE_INFINITY;
@@ -14,6 +16,15 @@ public class Nodo<T> implements Comparable<Nodo<T>> {
         this.t = t;
         this.nombre = nombre;
         aristas = new ArrayList<>();
+        centinela = true;
+    }
+
+    public Boolean getCentinela() {
+        return centinela;
+    }
+
+    public void setCentinela(Boolean centinela) {
+        this.centinela = centinela;
     }
 
     public String getNombre() {
