@@ -17,6 +17,7 @@ public class ControladorPrincipal {
 
     private PilaCartas unaPila = new PilaCartas();
 
+
     @FXML
     private Label txtCartasRestantes;
 
